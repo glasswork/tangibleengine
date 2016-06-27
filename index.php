@@ -433,8 +433,8 @@
 		a.anchor {top:-63px;}
 		.content-block .content-img {max-height:calc(100vh - 63px);}
 		#support_container {padding-bottom:7%;}
-		#support_text h1 {font-size:16px;}
-		#support_container p {font-size:4vh; line-height:6vh;}
+		#support_text h1 {font-size:20px; font-size:5vh;}
+		#support_container p {font-size:14px; font-size:4vh; line-height:6vh;}
 	}
 	@media screen and (max-height: 500px) {
 		#video-block {max-height:calc(100vh - 63px);}
