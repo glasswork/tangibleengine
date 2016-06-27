@@ -1,5 +1,5 @@
 # Tangible Engine
-the micro-site
+...the micro-site...
 
 Code for the very simple, single-page Tangible Engine website.
 git ignores dokuwiki folder
