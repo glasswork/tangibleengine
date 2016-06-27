@@ -5,12 +5,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://tangible.com/</loc>
+  <loc>http://tangibleengine.com/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://wiki.tangible.com/</loc>
+  <loc>http://wiki.tangibleengine.com/</loc>
   <changefreq>weekly</changefreq>
   <priority>.80</priority>
 </url>
