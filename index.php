@@ -22,8 +22,6 @@
 <meta property="og:image" content="http://ideum.com/wp-content/uploads/2016/06/Engine-for-Blog-Post.jpg">
 <meta property="og:description" content="Tangible Engine is a highly optimized authoring package supporting the use of fiducial object recognition - the first of its kind to work with projected-capacitive touch screens."/>
 
-<link href="https://fonts.googleapis.com/css?family=Electrolize|Work+Sans:Thin,Extra-Light,Light,Regular,Medium,Semi-Bold,Bold" media="all" rel="stylesheet" type="text/css">
-
 <style>
 	body {background-color:#292929; color:#FFFFFF; font-family:'Work Sans', sans-serif; font-size:16px; line-height:36px; margin:0; padding:0; width:100%;}
 	div, section, header, footer {box-sizing:border-box;}
@@ -707,6 +705,8 @@
   </div>
   <footer> <a href="#" class="btn btn-small js-modal-close">Close</a> </footer>
 </div>
+
+<link href="https://fonts.googleapis.com/css?family=Electrolize|Work+Sans:Thin,Extra-Light,Light,Regular,Medium,Semi-Bold,Bold" media="all" rel="stylesheet" type="text/css">
 
 <!-- begin script that gets the Browser and OS info and adds it into the html tag -->
 <script>
