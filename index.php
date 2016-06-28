@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" ng-app="ideum">
 
-<script>
-  // this script gets the Browser and OS info and adds it into the html tag 
-  var b = document.documentElement;
-    b.setAttribute('data-useragent',  navigator.userAgent);
-    b.setAttribute('data-platform', navigator.platform );
-    b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
-</script>
-
 <head>
 
 <meta charset="UTF-8"/>
@@ -716,60 +708,74 @@
   <footer> <a href="#" class="btn btn-small js-modal-close">Close</a> </footer>
 </div>
 
+<!-- begin script that gets the Browser and OS info and adds it into the html tag -->
+<script>
+  var b = document.documentElement;
+    b.setAttribute('data-useragent',  navigator.userAgent);
+    b.setAttribute('data-platform', navigator.platform );
+    b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+</script>
+<!-- end script that gets the Browser and OS info and adds it into the html tag -->
+
+<!-- begin jquery include -->
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<!-- end jquery include -->
+
+<!-- begin script for modal window -->
 <script>
-$(function(){
+	$(function(){
 
-var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
+	var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
 
-	$('a[data-modal-id]').click(function(e) {
-		e.preventDefault();
-    $("body").append(appendthis);
-    $(".modal-overlay").fadeTo(500, 0.7);
-    //$(".js-modalbox").fadeIn(500);
-		var modalBox = $(this).attr('data-modal-id');
-		$('#'+modalBox).fadeIn($(this).data());
-	});  
-  
-  
-$(".js-modal-close, .modal-overlay").click(function() {
-    $(".modal-box, .modal-overlay").fadeOut(500, function() {
-        $(".modal-overlay").remove();
-    });
- 
-});
- 
-$(window).resize(function() {
-    $(".modal-box").css({
-        top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
-        left: ($(window).width() - $(".modal-box").outerWidth()) / 2
-    });
-});
- 
-$(window).resize();
- 
-});
+		$('a[data-modal-id]').click(function(e) {
+			e.preventDefault();
+			$("body").append(appendthis);
+			$(".modal-overlay").fadeTo(500, 0.7);
+			//$(".js-modalbox").fadeIn(500);
+			var modalBox = $(this).attr('data-modal-id');
+			$('#'+modalBox).fadeIn($(this).data());
+		});  
+
+
+	$(".js-modal-close, .modal-overlay").click(function() {
+			$(".modal-box, .modal-overlay").fadeOut(500, function() {
+					$(".modal-overlay").remove();
+			});
+
+	});
+
+	$(window).resize(function() {
+			$(".modal-box").css({
+					top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+					left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+			});
+	});
+
+	$(window).resize();
+
+	});
 </script>
+<!-- end script for modal window -->
 
+<!-- begin script for making sure video stops playing when modal window closed -->
 <script>
-$('.js-modal-close').click(function () {
-  $('#popup1').hide();
-  $('#popup1 iframe').attr("src", jQuery("#popup1 iframe").attr("src"));
-});
+	$('.js-modal-close').click(function () {
+		$('#popup1').hide();
+		$('#popup1 iframe').attr("src", jQuery("#popup1 iframe").attr("src"));
+	});
 </script>
-<script type="text/javascript">
+<!-- end script for making sure video stops playing when modal window closed -->
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
+<!-- begin google analytics script -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+  ga('create', 'UA-198125-31', 'auto');
+  ga('send', 'pageview');
 </script>
+<!-- end google analytics script -->
 
 </body>
