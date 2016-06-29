@@ -2,6 +2,14 @@
 <html class="no-js" ng-app="ideum">
 
 <head>
+<?php 
+$offset = 60 * 60 * 24 * 3;
+$ExpStr = gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
+echo '
+<meta http-equiv="cache-control" content="no-store">
+<meta http-equiv="expires" content="'.$ExpStr.'">
+';
+?>
 
 <meta charset="UTF-8"/>
 <meta name="robots" content="index,follow">
