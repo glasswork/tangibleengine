@@ -3,7 +3,7 @@
 
 <head>
 <?php 
-$offset = 60 * 60 * 24 * 3;
+$offset = 60 * 60 * 24 * 7;
 $ExpStr = gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
 echo '
 <meta http-equiv="cache-control" content="no-store">
