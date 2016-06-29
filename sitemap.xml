@@ -11,6 +11,11 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 </url>
 <url>
   <loc>http://wiki.tangibleengine.com/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>.80</priority>
+</url>
+<url>
+  <loc>http://tangibleengine.com/sitemap.xml</loc>
   <changefreq>weekly</changefreq>
   <priority>.80</priority>
 </url>
