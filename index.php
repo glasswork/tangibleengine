@@ -17,8 +17,8 @@ echo '
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 
-<link rel="shortcut icon" href="http://ideum.com/wp-content/themes/ideum/images/favicon.ico"/>
-<link rel="apple-touch-icon" href="http://ideum.com/wp-content/themes/ideum/images/iPhoneIcon.png"/>
+<link rel="shortcut icon" href="http://tangibleengine.com/favicon.ico"/>
+<link rel="apple-touch-icon" href="http://tangibleengine.com/iPhoneIcon.png"/>
 
 <title>Tangible Engine - Object Recognition System for Multitouch Tables</title>
 
