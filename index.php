@@ -135,7 +135,6 @@ echo '
     display: -ms-box;
 	}
 	
-	
 	.v-center {
 		height: 100vh;
 		width: 100%;
@@ -151,7 +150,6 @@ echo '
 		top: -10%;
 	}
 
-	
 
 	.btn-small {
 		padding: .75em 1em;
@@ -789,3 +787,4 @@ echo '
 <!-- end google analytics script -->
 
 </body>
+</html>
