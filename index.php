@@ -22,7 +22,7 @@ echo '
 
 <title>Tangible Engine - Object Recognition System for Multitouch Tables</title>
 
-<meta name="keywords" content="object recognition, fiducial, touch fiducial, touch objects, multitouch fiducial, multitouch object, tangible engine, tangibleengine, fiducial object recognition, projected-capacitive, touch screen, multitouch, touch, Ideum, C++, Unity 3D, tangible objects, 3D printing, Dynamic Desktop, SDK, Configurator, Visualizer">
+<meta name="keywords" content="object recognition, fiducial, touch fiducial, touch objects, multitouch fiducial, multitouch object, tangible engine, tangibleengine, fiducial object recognition, projected-capacitive, touch screen, multitouch, touch, Ideum, C++, Unity 3D, tangible object, 3D printing, Dynamic Desktop, SDK, Configurator, Visualizer">
 
 <meta name="description" content="Tangible Engine is a highly optimized authoring package supporting the use of fiducial object recognition - the first of its kind to work with projected-capacitive touch screens.">
 <meta property="og:site_name" content="Tangible Engine - Object Recognition System for Multitouch Tables">
